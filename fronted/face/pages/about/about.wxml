@@ -1,0 +1,19 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="title">
+    <text>使用帮助</text>
+  </view>
+  <view class="content">
+    <view>1.从相册或拍照选择图片上传检测，检测后分数位列前百可点击上榜</view>
+    <view>2.上榜后可看到自己的排名，top10可获得展示资格</view>
+    <view>3.本程序纯属娱乐，大家不要太在意检测结果和排名，开心就好~</view>
+  </view>
+  <view class="author">
+    <view>作者：翔要闻闻你敢不敢</view>
+    <view class="wx">
+      <image class="wxpng" src="../../images/wx.png"></image>
+      <view class="wxh">wx233333333</view>
+    </view>
+    
+  </view>
+</view>

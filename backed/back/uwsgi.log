@@ -1,0 +1,1924 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 17:36:48 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 17:37:15 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May  7 17:40:13 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1498c50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1498c50 pid: 27698 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27698)
+spawned uWSGI worker 1 (pid: 27700, cores: 1)
+spawned uWSGI worker 2 (pid: 27701, cores: 1)
+spawned uWSGI worker 3 (pid: 27702, cores: 1)
+spawned uWSGI worker 4 (pid: 27703, cores: 1)
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /cache/global/img/gs.gif
+Not Found: /cache/global/img/gs.gif
+Not Found: /404/search_children.js
+Not Found: /cache/global/img/gs.gif
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /test.jpg
+Not Found: /test.jpg
+*** Starting uWSGI 2.0.17 (64bit) on [Tue May  8 09:15:11 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21327e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21327e0 pid: 1835 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1835)
+spawned uWSGI worker 1 (pid: 1837, cores: 1)
+spawned uWSGI worker 2 (pid: 1838, cores: 1)
+spawned uWSGI worker 3 (pid: 1839, cores: 1)
+spawned uWSGI worker 4 (pid: 1840, cores: 1)
+Not Found: /favicon.ico
+Not Found: /faec
+Not Found: /cache/global/img/gs.gif
+Not Found: /cache/global/img/gs.gif
+Not Found: /cache/global/img/gs.gif
+Not Found: /favicon.ico
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back
+Not Found: /back/face
+Not Found: /back
+Not Found: /back
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /face
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to www.fwx123.xin/face/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+Forbidden (Referer checking failed - no Referer.): /face/
+Forbidden (Referer checking failed - https://servicewechat.com/wx33fdcbeac7801c61/devtools/page-frame.html does not match any trusted origins.): /face/
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 14:53:12 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21237e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21237e0 pid: 21367 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21367)
+spawned uWSGI worker 1 (pid: 21369, cores: 1)
+spawned uWSGI worker 2 (pid: 21370, cores: 1)
+spawned uWSGI worker 3 (pid: 21371, cores: 1)
+spawned uWSGI worker 4 (pid: 21372, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 14:59:07 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x234d7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x234d7e0 pid: 21850 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21850)
+spawned uWSGI worker 1 (pid: 21852, cores: 1)
+spawned uWSGI worker 2 (pid: 21853, cores: 1)
+spawned uWSGI worker 3 (pid: 21854, cores: 1)
+spawned uWSGI worker 4 (pid: 21855, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 14:59:27 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e4b7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e4b7e0 pid: 21882 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 21882)
+spawned uWSGI worker 1 (pid: 21884, cores: 1)
+spawned uWSGI worker 2 (pid: 21885, cores: 1)
+spawned uWSGI worker 3 (pid: 21886, cores: 1)
+spawned uWSGI worker 4 (pid: 21887, cores: 1)
+Not Found: /index.html
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:13:24 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23f07e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x23f07e0 pid: 22865 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22865)
+spawned uWSGI worker 1 (pid: 22867, cores: 1)
+spawned uWSGI worker 2 (pid: 22868, cores: 1)
+spawned uWSGI worker 3 (pid: 22869, cores: 1)
+spawned uWSGI worker 4 (pid: 22870, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:15:37 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa717e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa717e0 pid: 23051 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23051)
+spawned uWSGI worker 1 (pid: 23053, cores: 1)
+spawned uWSGI worker 2 (pid: 23054, cores: 1)
+spawned uWSGI worker 3 (pid: 23055, cores: 1)
+spawned uWSGI worker 4 (pid: 23056, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 13, in get_image
+    ls_file = base64.b64encode(file.read())
+AttributeError: 'str' object has no attribute 'read'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:17:52 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xffd7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xffd7e0 pid: 23235 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23235)
+spawned uWSGI worker 1 (pid: 23238, cores: 1)
+spawned uWSGI worker 2 (pid: 23239, cores: 1)
+spawned uWSGI worker 3 (pid: 23240, cores: 1)
+spawned uWSGI worker 4 (pid: 23241, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 13, in get_image
+    ls_file = base64.b64encode(file)
+  File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+    encoded = binascii.b2a_base64(s)[:-1]
+TypeError: a bytes-like object is required, not 'str'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:23:40 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf437e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf437e0 pid: 23643 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23643)
+spawned uWSGI worker 1 (pid: 23645, cores: 1)
+spawned uWSGI worker 2 (pid: 23646, cores: 1)
+spawned uWSGI worker 3 (pid: 23647, cores: 1)
+spawned uWSGI worker 4 (pid: 23648, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:30:25 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1bc87e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1bc87e0 pid: 24116 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24116)
+spawned uWSGI worker 1 (pid: 24118, cores: 1)
+spawned uWSGI worker 2 (pid: 24119, cores: 1)
+spawned uWSGI worker 3 (pid: 24120, cores: 1)
+spawned uWSGI worker 4 (pid: 24121, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:32:53 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22787e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22787e0 pid: 24314 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24314)
+spawned uWSGI worker 1 (pid: 24316, cores: 1)
+spawned uWSGI worker 2 (pid: 24317, cores: 1)
+spawned uWSGI worker 3 (pid: 24318, cores: 1)
+spawned uWSGI worker 4 (pid: 24319, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 12, in get_image
+    file = request.files["file"]
+AttributeError: 'WSGIRequest' object has no attribute 'files'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:36:08 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16037e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x16037e0 pid: 24563 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24563)
+spawned uWSGI worker 1 (pid: 24565, cores: 1)
+spawned uWSGI worker 2 (pid: 24566, cores: 1)
+spawned uWSGI worker 3 (pid: 24567, cores: 1)
+spawned uWSGI worker 4 (pid: 24568, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 12, in get_image
+    file = request.POST.files["file"]
+AttributeError: 'QueryDict' object has no attribute 'files'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 15:48:17 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26597e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26597e0 pid: 25422 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25422)
+spawned uWSGI worker 1 (pid: 25425, cores: 1)
+spawned uWSGI worker 2 (pid: 25426, cores: 1)
+spawned uWSGI worker 3 (pid: 25427, cores: 1)
+spawned uWSGI worker 4 (pid: 25428, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:46:10 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25e47e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25e47e0 pid: 809 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 809)
+spawned uWSGI worker 1 (pid: 812, cores: 1)
+spawned uWSGI worker 2 (pid: 813, cores: 1)
+spawned uWSGI worker 3 (pid: 814, cores: 1)
+spawned uWSGI worker 4 (pid: 815, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 18, in get_image
+    "response": request.text
+AttributeError: 'WSGIRequest' object has no attribute 'text'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:48:36 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9a87e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x9a87e0 pid: 1055 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1055)
+spawned uWSGI worker 1 (pid: 1057, cores: 1)
+spawned uWSGI worker 2 (pid: 1058, cores: 1)
+spawned uWSGI worker 3 (pid: 1059, cores: 1)
+spawned uWSGI worker 4 (pid: 1060, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 18, in get_image
+    "response": request
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <WSGIRequest: POST '/face/'> is not JSON serializable
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:50:21 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16ed7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16ed7e0 pid: 1222 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1222)
+spawned uWSGI worker 1 (pid: 1224, cores: 1)
+spawned uWSGI worker 2 (pid: 1225, cores: 1)
+spawned uWSGI worker 3 (pid: 1226, cores: 1)
+spawned uWSGI worker 4 (pid: 1227, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 18, in get_image
+    "response": request.FILES
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <InMemoryUploadedFile: wx33fdcbeac7801c61.o6zAJswyJMJ8zRpdqXBo3-4s0scE.LnL5s7EjNftO7fef21b7710e17124f8c85b943aeaa28.jpg (image/jpeg)> is not JSON serializable
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:52:09 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21a87e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21a87e0 pid: 1375 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1375)
+spawned uWSGI worker 1 (pid: 1377, cores: 1)
+spawned uWSGI worker 2 (pid: 1378, cores: 1)
+spawned uWSGI worker 3 (pid: 1379, cores: 1)
+spawned uWSGI worker 4 (pid: 1380, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 13, in get_image
+    ls_file = base64.b64encode(file.read())
+AttributeError: 'MultiValueDict' object has no attribute 'read'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:52:52 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f5a7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1f5a7e0 pid: 1457 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1457)
+spawned uWSGI worker 1 (pid: 1459, cores: 1)
+spawned uWSGI worker 2 (pid: 1460, cores: 1)
+spawned uWSGI worker 3 (pid: 1461, cores: 1)
+spawned uWSGI worker 4 (pid: 1462, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 13, in get_image
+    ls_file = base64.b64encode(file)
+  File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+    encoded = binascii.b2a_base64(s)[:-1]
+TypeError: a bytes-like object is required, not 'MultiValueDict'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:54:47 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xaf17e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xaf17e0 pid: 1616 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1616)
+spawned uWSGI worker 1 (pid: 1618, cores: 1)
+spawned uWSGI worker 2 (pid: 1619, cores: 1)
+spawned uWSGI worker 3 (pid: 1620, cores: 1)
+spawned uWSGI worker 4 (pid: 1621, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:54:53 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15437e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15437e0 pid: 1631 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1631)
+spawned uWSGI worker 1 (pid: 1633, cores: 1)
+spawned uWSGI worker 2 (pid: 1634, cores: 1)
+spawned uWSGI worker 3 (pid: 1635, cores: 1)
+spawned uWSGI worker 4 (pid: 1636, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 12, in get_image
+    file = request.FILES('file')
+TypeError: 'MultiValueDict' object is not callable
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:55:45 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fbd7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fbd7e0 pid: 1729 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1729)
+spawned uWSGI worker 1 (pid: 1732, cores: 1)
+spawned uWSGI worker 2 (pid: 1733, cores: 1)
+spawned uWSGI worker 3 (pid: 1734, cores: 1)
+spawned uWSGI worker 4 (pid: 1735, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:55:50 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbd37e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xbd37e0 pid: 1744 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1744)
+spawned uWSGI worker 1 (pid: 1746, cores: 1)
+spawned uWSGI worker 2 (pid: 1747, cores: 1)
+spawned uWSGI worker 3 (pid: 1748, cores: 1)
+spawned uWSGI worker 4 (pid: 1749, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 13, in get_image
+    ls_file = base64.b64encode(file)
+  File "/usr/lib/python3.5/base64.py", line 59, in b64encode
+    encoded = binascii.b2a_base64(s)[:-1]
+TypeError: a bytes-like object is required, not 'InMemoryUploadedFile'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 17:57:52 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x217e7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x217e7e0 pid: 1909 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1909)
+spawned uWSGI worker 1 (pid: 1912, cores: 1)
+spawned uWSGI worker 2 (pid: 1913, cores: 1)
+spawned uWSGI worker 3 (pid: 1914, cores: 1)
+spawned uWSGI worker 4 (pid: 1915, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 17, in get_image
+    "ls_file": file
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <InMemoryUploadedFile: wx33fdcbeac7801c61.o6zAJswyJMJ8zRpdqXBo3-4s0scE.DCzCTVorTGTt7fef21b7710e17124f8c85b943aeaa28.jpg (image/jpeg)> is not JSON serializable
+Not Found: /favicon.ico
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 18:45:17 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17c77e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x17c77e0 pid: 5171 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5171)
+spawned uWSGI worker 1 (pid: 5173, cores: 1)
+spawned uWSGI worker 2 (pid: 5174, cores: 1)
+spawned uWSGI worker 3 (pid: 5175, cores: 1)
+spawned uWSGI worker 4 (pid: 5176, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 17, in get_image
+    "ls_file": file
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x01\x00\x01\x00\x01\x00\x00\xff\xdb\x00C\x00\x06\x04\x05\x06\x05\x04\x06\x06\x05\x06\x07\x07\x06\x08\n\x10\n\n\t\t\n\x14\x0e\x0f\x0c\x10\x17\x14\x18\x18\x17\x14\x16\x16\x1a\x1d%\x1f\x1a\x1b#\x1c\x16\x16 , #&\')*)\x19\x1f-0-(0%()(\xff\xdb\x00C\x01\x07\x07\x07\n\x08\n\x13\n\n\x13(\x1a\x16\x1a((((((((((((((((((((((((((((((((((((((((((((((((((\xff\xc0\x00\x11\x08\x01\xb3\x02D\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1f\x00\x00\x01\x05\x01\x01\x01\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\xff\xc4\x00\xb5\x10\x00\x02\x01\x03\x03\x02\x04\x03\x05\x05\x04\x04\x00\x00\x01}\x01\x02\x03\x00\x04\x11\x05\x12!1A\x06\x13Qa\x07"q\x142\x81\x91\xa1\x08#B\xb1\xc1\x15R\xd1\xf0$3br\x82\t\n\x16\x17\x18\x19\x1a%&\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\x83\x84\x85\x86\x87\x88\x89\x8a\x92\x93\x94\x95\x96\x97\x98\x99\x9a\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xff\xc4\x00\x1f\x01\x00\x03\x01\x01\x01\x01\x01\x01\x01\x01\x01\x00\x00\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\xff\xc4\x00\xb5\x11\x00\x02\x01\x02\x04\x04\x03\x04\x07\x05\x04\x04\x00\x01\x02w\x00\x01\x02\x03\x11\x04\x05!1\x06\x12AQ\x07aq\x13"2\x81\x08\x14B\x91\xa1\xb1\xc1\t#3R\xf0\x15br\xd1\n\x16$4\xe1%\xf1\x17\x18\x19\x1a&\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x92\x93\x94\x95\x96\x97\x98\x99\x9a\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xff\xda\x00\x0c\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xafe\xa5\x99?\x87\x15\xb1k\x1bY\x02\x1c\xf1O\x82X\xd7!0q\xe9Q]L\x1c\xe2\xb3\x84\x9d\xb5*\xc6\x84Z\xd2\xc1\xd0Vv\xa1\xe2)db\x11F\rd]#\x12J\x93U\x966\xc7&\xa6\\\xcfB\x91r\xe6\xf5\xa6\x80\xe4\x00O\xa5r\xd7\xf0,\x93\xefZ\xd5\xb8\xdd\x18nk\x1d\xe4b\xc6\xb2j\xdb\x94[\xb2*\x8b\xf3u\xa8\xf5)\xd5\x13\xe5\\\xd4"l\x0fJ\x8a\xe1\xd5\xd1\xb7\x11R\x85b\x9cwj\xce\x14\xae9\xae\xbbHEx\xd3h\xc9\xf6\xae\x06\xe1\x82L\xa5H\xc5z_\x81"\x17!O\xa0\x15\xd1EjaQ\xd8\xd5\xb3Yc\x95p1]\xae\x9e\xaf<K\xbb\x90\x07cR[h\xa8\xea\tZ\xe84\xfd) P\x07J\xeeQ\xb3&\'\x05\xe2}\x11fF\xdc\xac2\x0f5\xf3\x8f\x8d4\xb7\xd3\xf5W\x1c\xed\'\x8a\xfb\x13\xc4Vjm[\x18\xce+\xe6_\x8a\x96\xbbo3\xcdMDi\xba1\xbe\x1d\xdf,\x1a\x87\x94\xe4s^\xcd\xe5\xc6\xf6\x9b\xd1\xb2@\xcd|\xeb\xa2Nmu8\xdc\x7fxf\xbd\xe7@\x9f\xcf\xb5Q\xd8\xd3\xa7\xb1\x1dL\xeb\xf8\xda`\xc0!&\xb9\xdb\xab)\x12]\xc5H\xe7\xbdzQ\xb4Ee\xe3\xade\xeb\x91F\xbf\xf2\xce\x94\xa2Y\xc7B\xe13\xce).\'\xca\x01\xd6\xaaj\xb7\x91\xc71U\\\x0c\xd5\x08n\x9d\x9f\x9e\x95\xce\xe4\xd0\x13\xccN~Z\x8aM\xce\x9bH9\xab\xd6\xfbX\xe4\xd5\x86\x8e=\xd9\xc5J\xd4.e\xd9X\xc8\xef\x96\xe0S\xf5+\x7f&&\xfaV\xd4L\x8b\x1f\x15\x85\xe2K\x8d\xb0\x10O5\xacU\x90\xce\x0bQpgj\xa2\xdc\xd4\xf7?4\x84\xd4\x07\xa50#`jXT\x96\xa6\x81\x92\x05_\xb3\xb7,\xe3\xd2\x93\x1a:\xcf\n\x05\xd8\x85\xba\xf7\xae\xb2i\xa3\x89A\\\x0e+\x88\xd3\\\xdb\xb0\x03\xa5m\xcb9\x961\x83XKs^\x85\xb9\xaeD\xa6\x9d\ny\xa0\x01\xc5f\x06>\xbc\xd5\xbbIX\x0cw\xa5s)\x1a\xb1Z0\xe8j)\xd6l\x10~\xef\xd2\xa5\x86\xe0\xa1\x05\xc15fK\x88d\x8f\x8f\xc6\xb5\xdd\x12\x8ezF\xf2\xa4\xcdGq\xa8\x16\x18=\xaa\xc5\xf2\xabI\x91\xd2\xb3."\xeaEccD\xc9\xed\xee\x03u5ny\x03D\x005\x84\xa8\xd9\xe0\x9a\xb9\x10\x90\xe0s\x8ai\x12\xcb\x96\xd1\x96$\xd3\xafm\xc3E\xefV\xac\xd4q\xd7\x14\xcb\xd7\x1bH\xe6\xb4\xb8\x8a\xban\x9a\xd2\x81\x8a\xb1so%\xb3m`q\xeb[z!\x8d\xedW\x95\rQx\x84\xa8\x81B\x90Nz\xd1opg;pw(\x15%\x84"n*&\x19\xe4\x9a\xd5\xd0"\x07vz\xe6\xa2\xd7\x10\xeb\x8b\x02\x91\x86\x03<\xf3Z\xdaI\tm\x82\x0ekG\xec\xa3\xcb\x04r\x08\xe9U.T@\xa4\xaf\x14\xf9m\xa8#\x0b[\xbd2\xc8Pt\x15\x99nJ\xb19\xa6\xdfK\x9b\x96\xc75~\xd5#hs\x8eqJ\xf7\x19\x0c\xf2(\x8f\'\xadQyC\xe4S\xb5Iv\x1d\xab\xd6\xb3\xad\xa4c8\r\xd0\x9a\x18#N\xd8T\xa4\x007\x03\xd2\xa7\xb6\xb4b\x19\xf0v\xd5[\xa8\x9dCl\x19\xa1\x03(\\\xddys\x86\xf4\xae\x87K\xd5\x92m\xb9^zW\x1fv\x1dNXU\xcd\x12\xe8}\xa9\x10\xf0\x01\xc9\xa6\xae;\x9e\xa7\xa3F\xb2\xce\x18\x8c\x0e\xb5\xaf\xa8\xc4\x86&\x04\xf1X:e\xda\xaa\x06R:RjZ\xb9\x08FEl\x9d\x90\x9a9Mi#\x8e\xe5\x88\xf5\xac\xe9\xb5(\xd2\x1d\xbd*Mb\xe3\xccG\'\xa9\xef\\t\xf2\x92H\xcdf\xd5\xc2$\xd7\xf7)$\xf9\xcf\x15\xdc|3\xf0\xfb^J\xb7\x12p\x0fJ\xf3\x9bt\xf3n\xe3R\x01\xcbW\xbd\xf8\x19V\xd6\xc6\x10\x83\x00\x0c\xf4\xab\xa7\xb83k[\xd3\xc5\xb5\x83\x07\xf9\xb08\xaeR\xca\xe84\xbeZ\x8e\x86\xbaO\x15\xeb+\xe4\x18\x81\xc9\xc5y\xb6\x9f\xa8\x08\xef\xdf\'\x19>\xb5u\x1d\xd9&\xd7\x8am\x1e[}\xc8\xa4\xe4s\x8a\xf3U\xe2FC\xd5N+\xd2u\rM>\xcaw\x11\x8a\xf3\xc7\xc4\xba\x83\xb2\xf4&\xa1\xab\x8c\xe8t\x88vB[\xbfZ\xd8\x8e\xf5\x12"\x0f\x06\xb1\xad\xa6\xd9\x16\x01\x1d+>\xfe\xf5S9l\x9fj\x96\x06\x8e\xad\xa9G\x82\xab\x82Msr>\xf2z\xd4D\xc94\xa0\x80H5\xab\xa7X\x19\xa6E`\x06iY\xb6\x06tk\x83\xcdiY\xa0*\xc7<\xd6\xe5\xc6\x84\xcb\x1e\xe5@~\x95AcH\x0e\xd2\xa4\x1a\xa6\xb4\x03,\x82\t\xcd@\xca\t\xad\x19c\xc9\xe2\xacY\xe9\xeb7\'\x15)\x81\x80\xc9\xf3QZ\xd7\xb6\x0c\x97.\x11F\xda*\x80\xfa\x0b\xc5Z\x18\xb0\x88\xddYG\x98O/\x8f\xe1\xae<\xcb\xe6r\xa7\x83\xed^\xa3\xa2\xde%\xcd\xbbEp\xe1\xd5\x86\x19\x1b\x9a\xe3\xbcM\xa3\x0b\x0b\xe0\xd1\x0f\xf4y\x0f\x18\xec}+\x95I\x9d\xf5\xe8\xabs#\x94\xb9\x9c\xa8"\xa9\x8b\x9f\xf6\xb0kf\xf6\xc3\nZ\xb9\xab\xd8v1\xe6\x9f;8\xed\xd8u\xd5\xdeF\xd3\x8a\xaf\x1cj\xc39\xebP\x8bC)9&\xac\x08\x0cI\x8c\x9f\xc6\xb2\xbblz\x95\xee-\tn\rS\xb9\xb2|\x1e\xb8\xae\x86\xc21$\x8a\xa4f\xb7N\x93\x1c\x91\x1c/4\xb7\x0b\x1eW-\x9by\xa0\x12z\xd7\xa8\xfc:}\x8c\x8a@\xec+\x98\xd6,\xd6\xdeBq\x80+k\xc1w\x08\x93\xae\x1c`\x11]t%faV\x07\xbdY\x10 R\x07j\xb1%\xd2*\xfc\xc7\x06\xb9\xdb-U\x05\xb8P\xc3\x81YZ\xce\xb0\xaa\xb9\r\xfa\xd7\xa1)\xab\n(\xe9u\x0b\x95\x9a\x16Ps\xc5x\x8f\xc5\x1d\x12I\xd1\xe5E\xe9\xcdw\xda^\xb0\x93\xb6\xd6q\x8f\xad\'\x89\xd2\x0b\x9b6\x1c\x13\x8a\xcd\xb5(\x9a$|\xa3"\x98&\xcfF\x06\xbd7\xc1:\xf01\xa2;\x0c\x8e9\xaeC\xc5\x96Im\xa8J\x07M\xc7\x15GC\x95\xa3\xb8\xf9X\x8a\xc22qb\x92=\xea-PO \x11\xb7AKt\x92\\\x0e{\xf7\xaeC\xc3\xf3\x9f5w7Z\xef\xecZ/-FA\xe2\xb6R\xbe\xe4\xdc\xf3o\x10h\xad\x1c\x8f.x\xfaW8\xbf!\xafl\xd4\xac#\xb9\xb7a\xb7$\xd7\x99k\xda$\xb6\xb78\x0b\xf2\xb1\xe2\xa2\xa4\x06d\xc3pT\xe2\xac\x8b\x86`\x075\x0c\xb6\x8c\x89\xbb\x075%\x8c3\xb9\xfb\x9cV\t\x0c\xbb\x1a\xbf\x97\x9eq\\\x87\x88\xe7v\x9d\x818\xc7\x15\xdc\xdc\xb7\xd9\xed~p\x01\xaf6\xd6\xe72\xdd\xb9\xcf\x15\xabv\x19\x93\'$\xd4-R\xbdG\xd4\xd3L\x0bV0\xef\x90g\x9a\xdd\xb7\x84 \xc9\xac\x8d<0`@\xcdo\xc3\x0b\xca\x99\x1cT\xb1\xa2\x18\xd84\x9f-j\xc3\x13\xed<\xd6tq\x08\xa5\xe7\x8a\xd4Y\xc6\xccdV2E\xa1\x9c\xa1\xe6\xaf\xd8J\x87\x93\xd4Vd\x92g=\xe9l\xd2C/\x19\xa4\x89l\xda\xbf\xba\x01\x14 \xc5P\x86\xe9\xc9 \xf1WL\x05\xd0n\x15Y\xa0(\xdc\n\xa6M\x8b8\xdf\x1eH\xac\xbb\xc9\x95X\x81V\xe6\x95\x96\x12+\x0e\xebq|\xf3I\x05\xcb\xb6\xae\xbb\xc6y\xadeD\xda\x08\x03\x15\xcc\xc6\xcd\xb8\x10y\xad{9$*\x07Pi\xdc\x0b\x13]\xf9,v\x9a\xa4\xf7o) \x9c\xe6\x96\xf6\x17bYk L\xeb&\x1b\xb1\xa4\xc0\xe8\xec\x1aX\x97\x82qM\xbe\
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 18:47:48 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1efe7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1efe7e0 pid: 5372 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5372)
+spawned uWSGI worker 1 (pid: 5374, cores: 1)
+spawned uWSGI worker 2 (pid: 5375, cores: 1)
+spawned uWSGI worker 3 (pid: 5376, cores: 1)
+spawned uWSGI worker 4 (pid: 5377, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 17, in get_image
+    "ls_file": ls_file
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: b'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
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 18:49:53 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa0a7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa0a7e0 pid: 5545 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5545)
+spawned uWSGI worker 1 (pid: 5547, cores: 1)
+spawned uWSGI worker 2 (pid: 5548, cores: 1)
+spawned uWSGI worker 3 (pid: 5549, cores: 1)
+spawned uWSGI worker 4 (pid: 5550, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 17, in get_image
+    "ls_file": type(ls_file)
+  File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <class 'bytes'> is not JSON serializable
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 19:30:19 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x77d7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x77d7e0 pid: 8233 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8233)
+spawned uWSGI worker 1 (pid: 8235, cores: 1)
+spawned uWSGI worker 2 (pid: 8236, cores: 1)
+spawned uWSGI worker 3 (pid: 8237, cores: 1)
+spawned uWSGI worker 4 (pid: 8238, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 29, in get_image
+    attr_data = json_data['faces'][0]['attributes']
+IndexError: list index out of range
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 29, in get_image
+    attr_data = json_data['faces'][0]['attributes']
+KeyError: 'faces'
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 29, in get_image
+    attr_data = json_data['faces'][0]['attributes']
+KeyError: 'faces'
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 29, in get_image
+    attr_data = json_data['faces'][0]['attributes']
+KeyError: 'faces'
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 20:07:07 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xaf57e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xaf57e0 pid: 10691 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10691)
+spawned uWSGI worker 1 (pid: 10694, cores: 1)
+spawned uWSGI worker 2 (pid: 10695, cores: 1)
+spawned uWSGI worker 3 (pid: 10696, cores: 1)
+spawned uWSGI worker 4 (pid: 10697, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May 10 20:13:10 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d5b7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1d5b7e0 pid: 11159 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11159)
+spawned uWSGI worker 1 (pid: 11161, cores: 1)
+spawned uWSGI worker 2 (pid: 11162, cores: 1)
+spawned uWSGI worker 3 (pid: 11163, cores: 1)
+spawned uWSGI worker 4 (pid: 11164, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 28, in get_image
+    json_data = response.json()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 808, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 560, in urlopen
+    body=body, headers=headers)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 787, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 252, in connect
+    ssl_version=resolved_ssl_version)
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 305, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.5/ssl.py", line 377, in wrap_socket
+    _context=self)
+  File "/usr/lib/python3.5/ssl.py", line 752, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 988, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 633, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:645)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 589, in urlopen
+    raise SSLError(e)
+requests.packages.urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:645)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 27, in get_image
+    response = requests.post(API, data=data)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 107, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 53, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 447, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:645)
+Not Found: /admin/assets/js/views/login.js
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 14 10:53:42 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13fb7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x13fb7e0 pid: 31761 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31761)
+spawned uWSGI worker 1 (pid: 31763, cores: 1)
+spawned uWSGI worker 2 (pid: 31764, cores: 1)
+spawned uWSGI worker 3 (pid: 31765, cores: 1)
+spawned uWSGI worker 4 (pid: 31766, cores: 1)
+Internal Server Error: /face/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "./face/views.py", line 72, in get_image
+    health = attr_data['skinstatus']['health']
+KeyError: 'skinstatus'
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 14 10:55:44 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x103f7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x103f7e0 pid: 31933 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31933)
+spawned uWSGI worker 1 (pid: 31935, cores: 1)
+spawned uWSGI worker 2 (pid: 31936, cores: 1)
+spawned uWSGI worker 3 (pid: 31937, cores: 1)
+spawned uWSGI worker 4 (pid: 31938, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 14 11:13:15 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc0e7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc0e7e0 pid: 694 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 694)
+spawned uWSGI worker 1 (pid: 696, cores: 1)
+spawned uWSGI worker 2 (pid: 697, cores: 1)
+spawned uWSGI worker 3 (pid: 698, cores: 1)
+spawned uWSGI worker 4 (pid: 699, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Mon May 14 11:19:21 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c5d7e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c5d7e0 pid: 1208 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1208)
+spawned uWSGI worker 1 (pid: 1210, cores: 1)
+spawned uWSGI worker 2 (pid: 1211, cores: 1)
+spawned uWSGI worker 3 (pid: 1212, cores: 1)
+spawned uWSGI worker 4 (pid: 1213, cores: 1)
+Not Found: /robots.txt
+Not Found: /.well-known/assetlinks.json
+Not Found: /favicon.ico
+Not Found: /_asterisk/
+Not Found: /robots.txt
+Not Found: /admin/config.php
+Not Found: /favicon.ico
+*** Starting uWSGI 2.0.17 (64bit) on [Fri May 18 11:13:00 2018] ***
+compiled with version: 5.4.0 20160609 on 13 April 2018 09:34:42
+os: Linux-4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017
+nodename: iZwz965fy84uxy94xx1e4yZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /py/back
+writing pidfile to /tmp/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /py/back/
+your processes number limit is 7858
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /py/back/back.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21d37e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21d37e0 pid: 26229 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26229)
+spawned uWSGI worker 1 (pid: 26231, cores: 1)
+spawned uWSGI worker 2 (pid: 26232, cores: 1)
+spawned uWSGI worker 3 (pid: 26233, cores: 1)
+spawned uWSGI worker 4 (pid: 26236, cores: 1)
+Not Found: /login.html
+Not Found: /favicon.ico

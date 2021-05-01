@@ -1,0 +1,43 @@
+/**index.wxss**/
+.aubtn {
+  margin-top: 20px
+}
+.imageinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageinfo-avatar {
+  max-width: 400rpx;
+  max-height: 400rpx;
+  margin-top: 10rpx;
+}
+
+.imageinfo-tips {
+  color: #aaa;
+}
+
+/* .userinfo-smile {
+  color: greenyellow;
+}
+
+.userinfo-beauty {
+  color: red;
+} */
+
+.mybutton {
+  position:fixed;
+  bottom: 20px;
+  
+}
+
+.button{
+  background:#0055FF !important;
+  margin: 10px
+}
+
+.button2{
+  background:red !important;
+  margin: 10px
+}

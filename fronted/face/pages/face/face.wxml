@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container"> 
+  <button
+      class="aubtn"
+      wx:if="{{canIUse}}"
+      open-type="getUserInfo" 
+      bindgetuserinfo="bindGetUserInfo"
+      hidden='{{eye}}'
+  >授权登录</button>
+  <view wx:else>请升级微信版本</view>
+  <view class="imageinfo"  style="margin-top:{{eye ? '60px' : '0'}}">
+    <image class="imageinfo-avatar" id="img" mode="aspectFit" src="{{imageInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="imageinfo-tips">{{imageInfo.tips}}</text>
+    <text class="imageinfo-tips">{{imageInfo.smile}}</text>
+    <text class="imageinfo-tips">{{imageInfo.beauty}}</text>
+  </view>
+  <button class="button2" bindtap="uploadRanking" size="mini" type="primary" hidden="{{isUploaded!=1}}" disabled='{{inRange!=1}}'>上榜</button>
+  <view><text class="imageinfo-tips">{{ranking_tip}}</text></view>
+  <view class="mybutton" style='display:flex'>
+    <button class="button" type="primary" data-source="album" bindtap="uploadImage">上传靓照</button>
+    <button class="button" type="primary" data-source="camera" bindtap="uploadImage">现拍靓照</button>
+  </view>
+</view>

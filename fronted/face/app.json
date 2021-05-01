@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/face/face",
+    "pages/ranking/ranking",
+    "pages/my/my",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0055FF",
+    "navigationBarTitleText": "人脸检测颜值排行榜",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#0055FF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/图片_填充.png",
+        "iconPath": "images/图片.png",
+        "pagePath": "pages/face/face",
+        "text": "上传"
+      },
+      {
+        "selectedIconPath": "images/排行榜 选中.png",
+        "iconPath": "images/排行榜 未选中.png",
+        "pagePath": "pages/ranking/ranking",
+        "text": "排行榜"
+      },
+      {
+        "selectedIconPath": "images/用户_填充.png",
+        "iconPath": "images/用户.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      },
+      {
+        "selectedIconPath": "images/设置_填充.png",
+        "iconPath": "images/设置.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  }
+}

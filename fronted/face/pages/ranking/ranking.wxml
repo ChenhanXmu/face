@@ -1,0 +1,45 @@
+<!--ranking.wxml-->
+<view class="navbar">  
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+  
+<!--总排行-->  
+<view class="page1" hidden="{{currentTab!==0}}">  
+  <text class="tips">下拉刷新获取最新排行</text>
+  <view>
+    <image class="imgtop" src="../../images/ranking.jpg"></image>
+  </view>
+  <view class="table">
+   <view class="tr">
+      <view class="td">排名</view>
+      <view class="td">上传者</view>
+      <view class="td">颜值</view>
+    </view>
+    <view wx:for="{{listData}}" wx:key="{{no}}">
+      <view class="tr">
+        <view class="{{item.no<=10 ? 'td10' : 'td'}}">NO.{{item.no}}</view>
+        <view class="td">{{item.name}}</view>
+        <view class="td">{{item.mark}}</view>
+      </view>
+    </view>
+  </view>
+</view>  
+  
+<!--top10-->  
+<view class="page2" hidden="{{currentTab!==1}}">  
+  <text class="tips">下拉刷新获取最新排行</text>
+  <view class="row_top">
+    top {{topIndex}}
+  </view>
+  <view class="row_btn">
+    <button class="mybtn" type="primary" bindtap="preImage" size="mini">上一张</button>
+    <button class="mybtn" type="primary" bindtap="nextImage" size="mini">下一张</button>
+  </view>
+  <image class="top_img" src="{{imgUrl}}"></image>
+  <view class="mark">
+    <view>颜值：</view><view class="mark_num">{{topInfo.mark}}</view>
+  </view>
+  <view class="author">
+    <view>上传者：{{topInfo.author}}</view> 
+  </view>
+</view>  
